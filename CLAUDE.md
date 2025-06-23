@@ -29,7 +29,3 @@ The HTML follows a semantic structure:
 - Services section listing offerings
 - Resume section with education and experience timelines
 - Uses semantic HTML elements and CSS classes for styling
-
-## Notes
-
-- CSS is minimal with only basic font family declaration
