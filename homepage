@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Notary Services - Butler Financials and Records LLC</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="notary.html">Notary Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">About</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Notary Services</h1>
+        <p>Certified notary public offering document notarization, mobile notary, and more. </p>
+    </section>
+
+    <section>
+        <h1>Bookkeeping Services</h1>
+        <p>Certified bookkeeping services for both small business and personal households.
+
+        </p>
+    </section>
+</body>
+
+</html>
