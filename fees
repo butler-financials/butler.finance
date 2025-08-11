@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<section>
+    <h1>Service Fees</h1>
+    <h2>Bookkeeping</h2>
+    <ul>
+        <li>Per hour: $20</li>
+        <li>Per month per business set of books:
+            <ul>
+                <li>5 accounts: $200</li>
+                <li>10 accounts: $375</li>
+            </ul>
+        </li>
+        <li>Per month per personal set of books:
+            <ul>
+                <li>5 accounts: $125</li>
+                <li>10 accounts: $225</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Data Entry</h2>
+    <ul>
+        <li>Per hour: $15</li>
+    </ul>
+    <h2>Notary</h2>
+    <ul>
+        <li>Per document: $5</li>
+        <li>Extra signatures past 5: $0.50 each</li>
+        <li>Max charge per document: $15</li>
+    </ul>
+    <h2>Travel Fees</h2>
+    <ul>
+        <li>Kingsport: $0</li>
+        <li>Bristol: $5</li>
+        <li>Johnson City: $5</li>
+    </ul>
+    <h2>Time Fees</h2>
+    <ul>
+        <li>9 am to 11 am: $0</li>
+        <li>11 am to 3 pm: $3</li>
+        <li>3 pm to 6 pm: $5</li>
+        <li>7 pm to 9 pm: $7</li>
+    </ul>
+    <h2>Day Fees</h2>
+    <ul>
+        <li>Monday to Friday: $0</li>
+        <li>Saturday and Sunday: $5</li>
+    </ul>
+</section>
+
