@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% endif %} - Butler Financials and Records LLC</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="data-entry.html">Data Entry</a></li>
+            <li><a href="bookkeeping.html">Bookkeeping</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">About</a></li>
+            <li><a href="fees.html">Fees</a></li>
+            <li><a href="notary.html">Notary</a></li>
+        </ul>
+    </nav>
+    {% if page.title %}
+    <h1>{{ page.title }}</h1>
+    {% endif %}
+    {{ content }}
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.DS_Store
+[Tt]humbs.db
+[Dd]esktop.ini
+__MACOSX/
+._*
+*.log
+*.tmp
+*.bak
+*.swp
+*.old
+*.orig
+
+# Jekyll specific ignores
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
