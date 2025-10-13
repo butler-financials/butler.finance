@@ -2,39 +2,101 @@
 ---
 
 :root {
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #333;
+	line-height: 1.6;
+	font-family: 'Segoe UI', Roboto, sans-serif;
+	background-color: #007bff;
 }
 
 body {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 2rem;
-	line-height: 1.6;
-	color: #333;
+	margin: 0;
+	padding: 0;
+	background-color: white;
 }
 
-header {
-	background: #f8f9fa;
-	padding: 2rem;
-	border-radius: 8px;
-	margin-bottom: 2rem;
-	border-left: 4px solid #007bff;
+.site-header {
+	margin: 0;
+	padding: 0;
+	background: url('assets/img/background.png');
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
 }
 
-section {
-	margin-bottom: 3rem;
+.logo {
+	display: block;
+	font-family: serif;
+	display: block;
 }
 
-h1 {
-	color: #2c3e50;
-	border-bottom: 2px solid #007bff;
-	padding-bottom: 0.5rem;
-	margin-bottom: 1.5rem;
+.site-nav-container {
+	background-color: #007bff;
+	background-color: #ffffffaa;
+	display: block;
+	padding: 0 1em;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	backdrop-filter: blur(2px);
+	border-color: #007bff
 }
 
-h2 {
-	color: #34495e;
-	margin-bottom: 1.5rem;
+.site-nav {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	> li {
+		padding: 0;
+		margin: 0;
+	}
+
+	a, :visited {
+		padding: 1em;
+		display: block;
+		text-decoration: none;
+		font-weight: bold;
+		background-color: #ffffff00;
+		color: white;
+		transition-property: color, background-color;
+		transition-duration: 500ms;
+	}
+
+	a:hover, a:focus {
+		background-color: #007bff;
+	}
+}
+
+main {
+	padding: 0 2rem 2rem 2rem;
+
+	header {
+		background: #f8f9fa;
+		padding: 2rem;
+		border-radius: 8px;
+		margin-bottom: 2rem;
+		border-left: 4px solid #007bff;
+	}
+
+	section {
+		margin-bottom: 3rem;
+	}
+
+	h1 {
+		color: #2c3e50;
+		border-bottom: 2px solid #007bff;
+		padding-bottom: 0.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	h2 {
+		color: #34495e;
+		margin-bottom: 1.5rem;
+	}
 }
 
 .resume-section {
@@ -125,10 +187,6 @@ h2 {
 }
 
 @media (max-width: 768px) {
-	body {
-		padding: 1rem;
-	}
-
 	.timeline {
 		margin-left: 1rem;
 	}

@@ -5,24 +5,35 @@
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }}{% endif %} - Butler Financials and Records LLC</title>
     <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#007bff">
+    <meta name="theme-color" content="#007bff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#007bff" media="(prefers-color-scheme: dark)">
 </head>
 
 <body>
-    <nav>
-        <ul>
+    <header class="site-header">
+        <img class="logo" src="assets/img/background.png" alt="Butler Financial and Records LLC">
+    </header>
+
+    <nav class="site-nav-container">
+        <ul class="site-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="data-entry.html">Data Entry</a></li>
             <li><a href="bookkeeping.html">Bookkeeping</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="resume.html">About</a></li>
+            <li><a href="resume.html">Résumé</a></li>
             <li><a href="fees.html">Fees</a></li>
             <li><a href="notary.html">Notary</a></li>
         </ul>
     </nav>
-    {% if page.title %}
-    <h1>{{ page.title }}</h1>
-    {% endif %}
-    {{ content }}
+
+    <main>
+        {% if page.title %}
+        <h1>{{ page.title }}</h1>
+        {% endif %}
+        {{ content }}
+    </main>
 </body>
 
 </html>
